@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About & Contact</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .card-header {
+            background-color: #5c2d91;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .profile-container {
+            display: flex;
+            align-items: center;
+        }
+        .profile-pic {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .notification {
+            font-size: 1.5rem;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    
+    
+    <div class="container mt-4">
+        <div class="card">
+            <div class="card-header">
+                <div class="profile-container">
+                    <img src="jio.jpg" class="profile-pic" alt="Profile Picture">
+                    <h5 class="mb-0">Hello, Welcome 🎉 <br>John Weak</h5>
+                </div>
+                <i class="bi bi-bell notification"></i>
+            </div>
+            <div class="card-body">
+                <h4>About Us</h4>
+                <img src="jio.jpg" class="img-fluid mb-3" alt="About Us Image">
+                <p>We are a team of dedicated professionals driven by creativity, innovation, and a passion for exceptional design. With years of expertise in mobile application and website design, we specialize in transforming ideas into captivating digital experiences that seamlessly combine functionality and aesthetics. Our approach is centered on understanding the unique needs of each client, ensuring every project we undertake not only aligns with their vision but also elevates their brand in the digital space.
+
+                  At the core of our work is our mastery of modern design tools like Figma, which allows us to bring concepts to life with precision and style. We take pride in crafting user-centric designs that are intuitive, visually appealing, and optimized for performance. From creating sleek mobile applications to designing impactful websites, we aim to deliver solutions that resonate with users and leave a lasting impression</p>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="container mt-4 mb-5">
+        <div class="card">
+            <div class="card-header">
+                <div class="profile-container">
+                    <img src="jio.jpg" class="profile-pic" alt="Profile Picture">
+                    <h5 class="mb-0">Hello, Welcome 🎉<br>John Weak</h5>
+                </div>
+                <i class="bi bi-bell notification"></i>
+            </div>
+            <div class="card-body">
+                <h4>Contact Us</h4>
+                <p><strong>Email:</strong> workforeign@gmail.com</p>
+                <p><strong>Phone No.:</strong> +44 (0) XXXX XXX XXX</p>
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label">Name</label>
+                        <input type="text" class="form-control" value="John Weak" disabled>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-control" value="john@example.com" disabled>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Message</label>
+                        <textarea class="form-control" rows="3" placeholder="Enter your query..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+   
+    <nav class="navbar navbar-light bg-light bottom-nav">
+        <div class="container-fluid d-flex justify-content-around">
+            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#">Compliance</a>
+            <a class="nav-link" href="#">Eligibility</a>
+            <a class="nav-link" href="#">Resource</a>
+            <a class="nav-link" href="#">Reminder</a>
+        </div>
+    </nav>
+</body>
+</html>
